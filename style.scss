@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap');
+// Sass Main Template
+@import "./includes/variables.scss";
+@import "./includes/typography.scss";
+@import "./includes/colors.scss";
+@import "./includes/top-sales.scss";
+a{
+    text-decoration: none;
+}
+#banner-area .owl-theme .item img{
+    height: 60vh;
+}
+#top-sale .owl-theme .item img,#new-supplements .owl-theme .item img{
+    height: 30vh;
+}
+
+#special-offer{
+    .grid .grid-item .product a img{
+        height: 30vh;
+        width: 200px;
+    }
+    .grid-item{
+        margin-right: 10px;
+        margin-top: 4px;
+    }
+}

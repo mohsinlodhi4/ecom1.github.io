@@ -1,0 +1,42 @@
+#top-sale .owl-carousel .item .product .contain-img {
+  overflow: hidden;
+}
+
+#top-sale .owl-carousel .item .product img {
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+#top-sale .owl-carousel .item .product img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+  left: 0;
+}
+
+.owl-carousel .owl-nav.owl-prev span {
+  margin-left: -4px;
+}
+
+.owl-prev span, .owl-carousel .owl-nav .owl-next span {
+  font-size: 35px;
+  color: red;
+  padding: 0 1rem;
+}
+
+.owl-carousel .owl-nav .owl-next {
+  right: 0;
+}
+
+.owl-carousel .owl-nav .owl-next span {
+  margin-right: -4rem;
+}
+/*# sourceMappingURL=top-sales.css.map */

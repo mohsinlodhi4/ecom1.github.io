@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-raleway {
+  font-family: "Raleway", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #6c5ce7;
+}
+
+.color-primary-bg {
+  background: #6c5ce7;
+}
+
+.color-secondary {
+  color: #a29bfe;
+}
+
+.color-secondary-bg {
+  background: #a29bfe;
+}
+
+#top-sale .owl-carousel .item .product .contain-img {
+  overflow: hidden;
+}
+
+#top-sale .owl-carousel .item .product img {
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+#top-sale .owl-carousel .item .product img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 26%;
+  outline: none;
+}
+
+#top-sale .owl-carousel .owl-nav .owl-prev {
+  left: 0;
+}
+
+#top-sale .owl-carousel .owl-nav .owl-prev span {
+  margin-left: -1rem;
+}
+
+#top-sale .owl-carousel .owl-nav .owl-prev span, #top-sale .owl-carousel .owl-nav .owl-next span {
+  font-size: 35px;
+  color: #6c5ce7;
+  padding: 0 1rem;
+}
+
+#top-sale .owl-carousel .owl-nav .owl-next {
+  right: 0;
+}
+
+#top-sale .owl-carousel .owl-nav .owl-next span {
+  margin-right: -1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+#banner-area .owl-theme .item img {
+  height: 60vh;
+}
+
+#top-sale .owl-theme .item img, #new-supplements .owl-theme .item img {
+  height: 30vh;
+}
+
+#special-offer .grid .grid-item .product a img {
+  height: 30vh;
+  width: 200px;
+}
+
+#special-offer .grid-item {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+/*# sourceMappingURL=style.css.map */
